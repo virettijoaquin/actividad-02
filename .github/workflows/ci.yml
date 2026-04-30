@@ -24,4 +24,4 @@ jobs:
 
       - name: Ejecutar tests
         run: |
-          PYTHONPATH=. pytest
+          PYTHONPATH=. pytest --html=report.html

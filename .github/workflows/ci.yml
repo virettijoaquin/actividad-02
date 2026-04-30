@@ -24,4 +24,4 @@ jobs:
 
       - name: Ejecutar tests
         run: |
-          pytest
+          PYTHONPATH=. pytest
